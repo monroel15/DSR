@@ -1,3 +1,56 @@
 @charset "UTF-8";
 /* CSS Document */
-body {	margin: 0; }
+body {	
+    margin: 0; 
+    font-family: "warbler-text";
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    width: 100vw;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    float: left;
+    text-align: center;
+    width: 100vw;
+    height: 50px;
+    background-color: grey;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+    nav a {
+        margin: 10px;
+        line-height: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+main {
+    width: 90vw;
+    padding: 5vw;
+}
+
+footer { 
+    float: left;
+    width: 90vw;
+    height: 250px;
+    background-color: black;
+    padding: 5vw;
+    color: white;
+    font-size: 12px;
+}
+
+footer a {
+    color: white;
+}
