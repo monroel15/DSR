@@ -70,11 +70,67 @@ filter: blur(1.5px) grayscale(50%);
         position: absolute;
     }
 
-
+.about {
+    float: left;
+    width: 50vw;
+}
 
 .us {
-    width: 200px; 
+
+    width: 33vw;
+    float: left;
+    margin: 20px;
+    margin-top: 90px;
 }
+
+h4 {
+    text-align: center;
+}
+
+li {
+    list-style:none;
+}
+
+    .director {
+        text-align: center;
+    }
+
+    .principles{
+        float: left;
+        width: 44vw;
+        text-align: center;
+    }
+
+    .associatePrinciples{
+        float: left;
+        width: 44vw;
+        text-align: center;
+    }
+
+    .seniorAssociate{
+        text-align: center;
+        float: left;
+        width: 44vw;
+    }
+
+    .associate{
+        text-align: center;
+        float: left;
+        width: 44vw;
+    }
+
+    .staff_1{
+        float: left;
+        width: 44vw;
+        text-align: center;
+    }
+
+    .staff_2{
+        float: left;
+        width: 44vw;
+        text-align: center;
+    }
+
 
 footer { 
     float: left;
