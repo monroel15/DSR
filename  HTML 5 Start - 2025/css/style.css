@@ -41,33 +41,39 @@ main {
     padding: 5vw;
 }
 
+h1 {
+    text-align: center;
+}
+
 img {
     width: 90vw;
 }
 
-.block {
-   float: left;
-    margin: 1px;
-    width: 44vw;
-    height: 44vw; 
+.image-container {
+    position: relative;
+    display: inline-block;
     overflow: hidden;
-    line-height: 44vw;
-    text-align: center;
-}
-
-    .block img {
-        width: 100%;
     }
 
-    .block img:hover {
-filter: blur(1.5px) grayscale(50%);
-    }
+    .image-container img {
+        display: block;
+        width: 44vw;
+        height: 44vw;
+        }
 
-    .cultural::before {
-        content: "hello";
-        width: 100%;
-        height: 100%;
-        position: absolute;
+        .image-container:hover img {
+            filter: blur(4px) grayscale(50%);
+        }
+
+.label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
     }
 
 .about {
@@ -77,10 +83,11 @@ filter: blur(1.5px) grayscale(50%);
 
 .us {
 
-    width: 33vw;
+    width: 250px;
     float: left;
     margin: 20px;
     margin-top: 90px;
+    height: 35vh;
 }
 
 h4 {
@@ -89,6 +96,10 @@ h4 {
 
 li {
     list-style:none;
+}
+
+.proinf {
+    text-align: center;
 }
 
     .director {
@@ -131,6 +142,26 @@ li {
         text-align: center;
     }
 
+.banda img{
+    width: 44vw;
+    margin: 2px;
+}
+
+#carousel {
+    width: 90vw;
+    height: 50vw;
+    overflow: hidden;
+}
+
+    #carousel div {
+       width: 90vw;
+        height: 50vw; 
+        float: left;
+    }
+
+    #carousel img {
+        width: 100%;
+    }
 
 footer { 
     float: left;
