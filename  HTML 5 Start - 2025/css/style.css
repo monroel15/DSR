@@ -3,37 +3,44 @@
 body {	
     margin: 0; 
     font-family: "warbler-text";
+    color: #855d25;
 }
 
 header {
     text-align: center;
     font-size: 50px;
-    height: 100px;
+    height: 200px;
     width: 100vw;
     float: left;
-    background-color: black;
-    color: white;
+    background-color: #fff0b8;
+    color: #2d1a0e;
 }
+
+    .head {
+        width: 200px;
+        float: left;
+    }
 
 nav {
     float: left;
     text-align: center;
     width: 100vw;
     height: 50px;
-    background-color: grey;
+    background-color: #76c270;
     position: sticky;
     z-index: 10;
     top: 0;
 }
 
     nav a {
-        margin: 10px;
+        margin: 5vw;
         line-height: 50px;
+        font-size: large;
     }
 
     a {
         text-decoration: none;
-        color: black;
+        color: #2d1a0e
     }
 
 main {
@@ -43,6 +50,16 @@ main {
 
 h1 {
     text-align: center;
+    color: #2d1a0e;
+}
+
+h2 {
+    color: #2d1a0e;
+}
+
+h4 {
+    text-align: center;
+    color: #2d1a0e;
 }
 
 img {
@@ -70,7 +87,7 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #fff0b8;
     font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
@@ -83,15 +100,12 @@ img {
 
 .us {
 
-    width: 250px;
+    width: 300px;
     float: left;
     margin: 20px;
-    margin-top: 90px;
-    height: 35vh;
-}
-
-h4 {
-    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 350px;
 }
 
 li {
@@ -130,15 +144,9 @@ li {
         width: 44vw;
     }
 
-    .staff_1{
+    .staff{
         float: left;
-        width: 44vw;
-        text-align: center;
-    }
-
-    .staff_2{
-        float: left;
-        width: 44vw;
+        width: 29vw;
         text-align: center;
     }
 
@@ -167,12 +175,24 @@ footer {
     float: left;
     width: 90vw;
     height: 250px;
-    background-color: black;
+    background-color: #2d1a0e;;
     padding: 5vw;
-    color: white;
+    color: #fff0b8;
     font-size: 12px;
 }
 
-footer a {
-    color: white;
-}
+    footer a {
+        color: #76c270;
+    }
+
+    .foot {
+        float: left;
+        width: 45vw;
+    }
+
+    .logo {
+        float: right;
+        line-height: 250px;
+        width: 200px;
+        height: 200px
+    }
