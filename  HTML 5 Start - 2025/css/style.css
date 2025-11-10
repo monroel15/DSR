@@ -9,15 +9,16 @@ body {
 header {
     text-align: center;
     font-size: 50px;
-    height: 200px;
+    height: 350px;
     width: 100vw;
     float: left;
-    background-color: #fff0b8;
     color: #2d1a0e;
+    background-image:url(../images/outside.jpg);
+    background-position: 100%;
 }
 
     .head {
-        width: 200px;
+        width: 190px;
         float: left;
     }
 
@@ -36,11 +37,12 @@ nav {
         margin: 5vw;
         line-height: 50px;
         font-size: large;
+        color: #2d1a0e;
     }
 
     a {
         text-decoration: none;
-        color: #2d1a0e
+        color: #76c270;
     }
 
 main {
@@ -55,6 +57,7 @@ h1 {
 
 h2 {
     color: #2d1a0e;
+    text-align: center;
 }
 
 h4 {
@@ -174,16 +177,12 @@ li {
 footer { 
     float: left;
     width: 90vw;
-    height: 250px;
+    height: 45vh;
     background-color: #2d1a0e;;
     padding: 5vw;
     color: #fff0b8;
     font-size: 12px;
 }
-
-    footer a {
-        color: #76c270;
-    }
 
     .foot {
         float: left;
