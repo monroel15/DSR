@@ -7,12 +7,9 @@ body {
 }
 
 header {
-    text-align: center;
-    font-size: 50px;
     height: 350px;
     width: 1512px;
     float: left;
-    color: #2d1a0e;
     background-image:url(../images/outside_2.jpg);
     background-position: 30%;
 }
