@@ -10,15 +10,15 @@ header {
     text-align: center;
     font-size: 50px;
     height: 350px;
-    width: 100vw;
+    width: 1512px;
     float: left;
     color: #2d1a0e;
-    background-image:url(../images/outside.jpg);
-    background-position: 100%;
+    background-image:url(../images/outside_2.jpg);
+    background-position: 30%;
 }
 
     .head {
-        width: 190px;
+        width: 200px;
         float: left;
     }
 
@@ -40,10 +40,18 @@ nav {
         color: #2d1a0e;
     }
 
+        nav a:hover {
+            color: #fff0b8;
+        }
+
     a {
         text-decoration: none;
-        color: #76c270;
+        color: #2d1a0e;
     }
+
+        a:hover {
+            color: #76c270;
+        }
 
 main {
     width: 90vw;
@@ -103,12 +111,18 @@ img {
 
 .us {
 
-    width: 300px;
+    width: 360px;
     float: left;
     margin: 20px;
     margin-top: 30px;
     margin-left: 200px;
-    height: 350px;
+}
+
+.annoy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw; 
 }
 
 li {
@@ -149,13 +163,12 @@ li {
 
     .staff{
         float: left;
-        width: 29vw;
+        width: 30vw;
         text-align: center;
     }
 
 .banda img{
     width: 44vw;
-    margin: 2px;
 }
 
 #carousel {
@@ -187,6 +200,10 @@ footer {
     .foot {
         float: left;
         width: 45vw;
+    }
+
+    footer a {
+        color: #fff0b8;
     }
 
     .logo {
